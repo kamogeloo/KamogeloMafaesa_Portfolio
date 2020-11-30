@@ -28,7 +28,7 @@ body{
 }
 #laptop{
     display: flex;
-    margin-top: -500px;
+    margin-top: -600px;
     margin-left: 200px;
     z-index: -3;
     
