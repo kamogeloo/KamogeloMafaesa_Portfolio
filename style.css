@@ -28,7 +28,7 @@ body{
 }
 #laptop{
     display: flex;
-    margin-top: -600px;
+    margin-top: -700px;
     margin-left: 200px;
     z-index: -3;
     
@@ -36,6 +36,7 @@ body{
 }
 #texts{
     color: white;
+    margin-top: 300px;
 }
 
 .box2{
@@ -328,7 +329,7 @@ nav{
     .hamburger
     nav, main, .home, section,.footer, #work, .box1{
         width: 100%;
-        
+        height: auto;
     }
     main, .home, section,.footer, #work, .box1{
         z-index: 0;
