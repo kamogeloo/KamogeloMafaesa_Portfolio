@@ -72,6 +72,13 @@ body{
     }
 #texts{
     margin-top: -50%;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: -300px;
+    
 }
 .box2 img{
     width: 100%;
@@ -209,6 +216,7 @@ nav{
     clip-path:circle(2000px at 90% -20%);
     -webkit-clip-path: circle(2000px at 90% -20%);
     pointer-events: all;
+    z-index: 3;
     
    
     
@@ -310,8 +318,51 @@ nav{
    
 }
     
+@media screen and (max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 5px;
+    }
+    .hamburger
+    nav, main, .home, section,.footer, #work, .box1{
+        width: 100%;
+        
+    }
+    main, .home, section,.footer, #work, .box1{
+        z-index: 0;
+    }
+    #texts{
+        margin-left: auto;
+        margin-right: auto ;
+        width: 60%;
+        margin-top: -400px;
+        z-index: 0;
+        
 
+    }
+    .box1 svg{
+        margin-left: 90px;
+        z-index: 0;
+    }
+    .box1 img{
+        margin-top: -600px;
+        width: 565px;
+        margin-left: -300px; 
+        z-index: 0;
+    }
+    #work{
+        margin-left: -530px; 
+        z-index: 0;
+    }
+    .workpageheading{
+        margin-left: 700px;
+        z-index: 0;
+        
+    }
     
+}
     
 
 
@@ -531,6 +582,7 @@ h2{
     font-size: 20px;
 }
 }
+
 /*screens 600px or less*/
 @media(max-width: 823px) and (orientation:landscape)
 {

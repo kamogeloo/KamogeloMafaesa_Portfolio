@@ -1,18 +1,7 @@
 
-//responsiveness
-function Responsivemenu(){
-    let menubar = document.getElementById("menulist");
-    if(menubar.className === "navi"){
-        menubar.className += "responsive";
-    }
-    else{
-        menubar.className = "navi";
-    }
-    }
-
     //scrolluparrow
     
-    let topbutton = document.getElementById("topbtn");
+    const topbutton = document.getElementById("#topbtn");
     window.onscroll = function() {scrollTo()};
     console.log('it works');
     
@@ -42,7 +31,7 @@ const links = document.querySelectorAll(".nav-links li, #button");
 const image =document.querySelector(".aboutpage img");
 const heading = document.querySelector(".aboutpage h1");
 const body = document.querySelector("body");
-
+const cards = document.querySelector(" #illust");
 
 hamburger.addEventListener("click", () => {
 
@@ -52,6 +41,8 @@ link.classList.toggle("fade");
 body.style.overflow = "hidden";
 image.style.display = "none";
 heading.style.display = "none";
+cards.style.display = "none";
 
 });
+
 });
